@@ -11,8 +11,8 @@ function App() {
   const props = blogData
   return (
     <div className="App">
-      <Header name = {prop.name} />
-      <About about={prop.about} Image={props.name } />
+      <Header name = {props.name} />
+      <About about={props.about} image={props.name } />
       <ArticleList posts={props.posts}/>
       You're on your own from here! Follow the deliverables; test things out in
       the browser as you write your code; and good luck!
